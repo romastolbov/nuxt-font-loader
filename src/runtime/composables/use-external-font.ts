@@ -54,5 +54,5 @@ export const useExternalFont = (external: ExternalOptions[]) => {
 
   useHead({ link: links })
 
-  if (styles) return useHead({ style: [{ children: styles }] })
+  if (styles) return useHead({ style: [styles] })
 }

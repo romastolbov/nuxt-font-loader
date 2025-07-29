@@ -31,5 +31,5 @@ export const useLocalFont = (local: LocalOptions[]) => {
 
   if (links.length) useHead({ link: links })
 
-  return useHead({ style: [{ children: styles }] })
+  return useHead({ style: [styles] })
 }

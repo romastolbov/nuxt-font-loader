@@ -59,7 +59,7 @@ export default defineNuxtModule<ModuleOptions>({
         }
       }
 
-      head.style?.push({ children: styles })
+      head.style?.push(styles)
     }
 
     if (external) {
@@ -111,7 +111,7 @@ export default defineNuxtModule<ModuleOptions>({
         )
       }
 
-      if (styles) head.style?.push({ children: styles })
+      if (styles) head.style?.push(styles)
     }
   },
 })
